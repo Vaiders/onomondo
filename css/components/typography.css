@@ -1,0 +1,92 @@
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.8em;
+    font-weight: 300;
+    color: white;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: blue;
+    font-size: 45px;
+    font-weight: 300;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.2em;
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #282828;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-15 {
+    font-size: 15px;
+}
+.font-16 {
+    font-size: 16px;
+    font-weight: 300;
+}
+.font-18-light {
+    font-size: 18px;
+    font-weight: 300;
+}
+.font-18 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.font-18-bold {
+    font-size: 18px;
+    font-weight: 700;
+}
+.font-22-bold {
+    font-size: 22px;
+    font-weight: 700;
+}
+.font-40 {
+    font-size: 40px;
+}
+.font-45-light {
+    font-size: 45px;
+    font-weight: lighter;
+}
+.font-24-light {
+    font-size: 24px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.font-24 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.font-25 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.font-30-light {
+    font-size: 30px;
+    font-weight: 300;
+}
+.blue {
+    color: #1224FC;
+}
+.light-blue {
+    color: #2F76FD;
+}
+.white {
+    color: white;
+}
