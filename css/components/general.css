@@ -2,6 +2,9 @@
 html, body {
     overflow-x:hidden;
 }
+.bg-pattern {
+    background: linear-gradient(rgba(31, 83, 171, 0.9), rgba(0, 28, 160, 0.9)), url('../../images/bg_big_pattern.png');
+}
 .white {
     color: white;
 }
@@ -12,7 +15,7 @@ html, body {
     padding-left: 65px;
 }
 .p-margin {
-    margin: 40px;
+    margin: 20px;
 }
 .margin-right-20 {
     margin-right: 20px;
@@ -53,8 +56,8 @@ html, body {
 .padding-bottom-10 {
     padding-bottom: 10px;
 }
-.padding-bottom-150 {
-    padding-bottom: 150px;
+.padding-bottom-100 {
+    padding-bottom: 100px;
 }
 .padding-top-100 {
     padding-top: 100px;
@@ -64,6 +67,15 @@ html, body {
 }
 .margin-top-minus-60 {
     margin-top: -60px;
+}
+.padding-bottom-20 {
+    padding-bottom: 20px;
+}
+.padding-top-20 {
+    padding-top: 20px;
+}
+.padding-bottom-60 {
+    padding-bottom: 60px;
 }
 
 @media (max-width: 768px) {
@@ -93,6 +105,17 @@ html, body {
     color: white;
     font-weight: 700;
 }
+.learn-more-cancel{
+    background-color:transparent;
+    border-color: #2F76FD;
+    border-width: 2px;
+    height: 58px;
+    width: 202px;
+    border-radius: 10px;
+    color: #2F76FD;
+    font-weight: 700;
+    font-size: 16px;
+}
 
 .learn-more:hover {
     /*background-color: #2F76FD;*/
@@ -112,14 +135,24 @@ html, body {
     margin-bottom: 50px;
 }
 
-.no-color {
-    background-color:transparent;
-    border-color: white;
-    border-width: 0;
-    color: white !important;
+.solid {
+    border-style: solid;
 }
 @media (max-width: 768px) {
     .margin-top-30-mobile {
         margin-top: 50px;
+    }
+}
+.padding-top-x{
+    padding-top: 70px;
+}
+@media (max-width: 864px) {
+    .padding-top-x{
+        padding-top: 37px;
+    }
+}
+@media (max-width: 610px) {
+    .padding-top-x{
+        padding-top: 11px;
     }
 }
